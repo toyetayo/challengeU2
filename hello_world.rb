@@ -9,9 +9,6 @@ class HelloWorld
   end
 end
 
-# Call the method and print the result
-puts HelloWorld.hello
-puts HelloWorld.hello('Tim')
 
     
 
