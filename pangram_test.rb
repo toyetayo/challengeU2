@@ -47,6 +47,6 @@ class PangramTest < Minitest::Test
 
   def test_pangram_with_non_ascii_characters
     str = 'Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich.'
-    assert Pangram.is_pangram?(str)
+    assert Pangram.is_pangram?(str) 
   end
-end
+end                          
